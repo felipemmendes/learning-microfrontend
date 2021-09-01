@@ -1,12 +1,12 @@
 import React, { useEffect, useRef } from 'react';
-import { mount as marketingMount } from 'marketing/Marketing';
+import { mount } from 'marketing/Marketing';
 
 const Marketing = () => {
     const ref = useRef(null);
 
     useEffect(() => {
-        marketingMount(ref.current);
-    }, []);
+        mount(ref.current);
+    });
 
     return <div ref={ref} />;
 }
