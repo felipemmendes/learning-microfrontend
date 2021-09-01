@@ -10,7 +10,7 @@ const devConfig = {
         port: 8082,
         historyApiFallback: {
             index: 'index.html'
-        }
+        },
     },
     plugins: [
         new ModuleFederationPlugin({
@@ -24,7 +24,7 @@ const devConfig = {
         new HtmlWebpackPlugin({
             template: './public/index.html',
         }),
-    ]
-}
+    ],
+};
 
 module.exports = merge(commonConfig, devConfig);
