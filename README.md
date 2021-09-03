@@ -9,7 +9,7 @@ The application has 4 microfrontends:
 
 ## What I've learned
 
-* Concepts, challanges and application of Microfrontends
+* Concepts, challenges and application of Microfrontends
 * Webpack's Module Federation
 * CI/CD Pipeline for Microfrontends
 * Deployment to AWS using S3 and Cloudfront
